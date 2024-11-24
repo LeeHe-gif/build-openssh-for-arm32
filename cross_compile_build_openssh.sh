@@ -13,8 +13,8 @@ try_source() {
 
 try_source .ssh_cfg
 
-default_server_user=david
-default_server_host=192.168.10.56
+default_server_user=root
+default_server_host=192.168.8.1
 default_server_port=22
 default_server_forward_port=22222
 
@@ -26,8 +26,8 @@ ssh_server_forward_port=${forward_port:=$default_server_forward_port}
 src_cfg_dir=/mnt/arm_ssh/cfg
 src_bin_dir=/mnt/arm_ssh/bin
 src_lib_dir=/mnt/arm_ssh/lib
-dst_bin_dir=/local/usr/bin
-dst_lib_dir=/local/usr/lib
+dst_bin_dir=/usr/bin
+dst_lib_dir=/usr/lib
 
 ssh_cfg_dir=/etc/ssh
 ssh_cfg_tmp_dir=`dirname $0`/tmp_cfg
