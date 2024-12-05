@@ -9,5 +9,5 @@ HostKey /etc/ssh/ssh_host_ed25519_key
 AuthorizedKeysFile /etc/ssh/authorized_keys
 #RSAAuthentication yes
 PubkeyAuthentication yes
-PasswordAuthentication no
+PasswordAuthentication yes
 StrictModes no
